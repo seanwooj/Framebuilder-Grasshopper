@@ -35,7 +35,7 @@ $EXTMAX
  10
 2.25
  20
-22.0
+21.757324
  30
 0.0
   9
@@ -445,19 +445,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2458311.887434502
+2458312.631945972
   9
 $TDUCREATE
  40
-2458312.179101169
+2458312.923612639
   9
 $TDUPDATE
  40
-2458311.887446447
+2458312.631967072
   9
 $TDUUPDATE
  40
-2458312.179113113
+2458312.923633738
   9
 $TDINDWG
  40
@@ -885,7 +885,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{2A00D806-9527-4165-A233-6A1F39BE40B0}
+{87110A61-EABF-4E33-9CE2-06DF159ECE88}
   9
 $VERSIONGUID
   2
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  12
 1.125
  22
-11.0
+10.878662
  13
 0.0
  23
@@ -1171,9 +1171,9 @@ AcDbViewportTableRecord
  37
 0.0
  40
-22.44
+22.19247048
  41
-0.1022727272727273
+0.1034134528676413
  42
 50.0
  43
@@ -1737,15 +1737,15 @@ Default
 100
 AcDbLine
  10
-0.0
+1.0
  20
-22.0
+0.0
  30
 0.0
  11
-1.0
+2.25
  21
-22.0
+0.0
  31
 0.0
   0
@@ -1763,19 +1763,91 @@ AcDbLine
  10
 0.0
  20
-11.5
+21.7573238
  30
 0.0
  11
 1.0
  21
-11.5
+21.7573238
+ 31
+0.0
+  0
+LINE
+  5
+72
+330
+1F
+100
+AcDbEntity
+  8
+Default
+100
+AcDbLine
+ 10
+1.0
+ 20
+21.7573238
+ 30
+0.0
+ 11
+2.25
+ 21
+21.7573238
+ 31
+0.0
+  0
+LINE
+  5
+73
+330
+1F
+100
+AcDbEntity
+  8
+Default
+100
+AcDbLine
+ 10
+0.0
+ 20
+11.378662
+ 30
+0.0
+ 11
+1.0
+ 21
+11.378662
+ 31
+0.0
+  0
+LINE
+  5
+74
+330
+1F
+100
+AcDbEntity
+  8
+Default
+100
+AcDbLine
+ 10
+1.0
+ 20
+11.378662
+ 30
+0.0
+ 11
+2.25
+ 21
+11.378662
  31
 0.0
   0
 POLYLINE
   5
-72
+75
 330
 1F
 100
@@ -1794,72 +1866,12 @@ AcDb2dPolyline
 0.0
  70
      1
-  0
-VERTEX
-  5
-73
-330
-72
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-0.0
- 20
-0.0
- 30
-0.0
-  0
-VERTEX
-  5
-74
-330
-72
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-1.0
- 20
-0.0
- 30
-0.0
-  0
-VERTEX
-  5
-75
-330
-72
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-1.0
- 20
-22.0
- 30
-0.0
   0
 VERTEX
   5
 76
 330
-72
+75
 100
 AcDbEntity
   8
@@ -1869,17 +1881,77 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-0.0
+1.25
  20
-22.0
+0.0
+ 30
+0.0
+  0
+VERTEX
+  5
+77
+330
+75
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+2.25
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  5
+78
+330
+75
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+2.25
+ 20
+21.757324
+ 30
+0.0
+  0
+VERTEX
+  5
+79
+330
+75
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+1.25
+ 20
+21.757324
  30
 0.0
   0
 SEQEND
   5
-77
+7A
 330
-72
+75
 100
 AcDbEntity
   8
@@ -1887,7 +1959,7 @@ Default
   0
 POLYLINE
   5
-78
+7B
 330
 1F
 100
@@ -1909,69 +1981,9 @@ AcDb2dPolyline
   0
 VERTEX
   5
-79
-330
-78
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-0.0
- 20
-0.0
- 30
-0.0
-  0
-VERTEX
-  5
-7A
-330
-78
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-0.5
- 20
-0.0
- 30
-0.0
-  0
-VERTEX
-  5
-7B
-330
-78
-100
-AcDbEntity
-  8
-Default
-100
-AcDbVertex
-100
-AcDb2dVertex
- 10
-0.5
- 20
-22.0
- 30
-0.0
-  0
-VERTEX
-  5
 7C
 330
-78
+7B
 100
 AcDbEntity
   8
@@ -1981,93 +1993,81 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-0.0
+1.25
  20
-22.0
+0.0
+ 30
+0.0
+  0
+VERTEX
+  5
+7D
+330
+7B
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+1.75
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  5
+7E
+330
+7B
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+1.75
+ 20
+21.757324
+ 30
+0.0
+  0
+VERTEX
+  5
+7F
+330
+7B
+100
+AcDbEntity
+  8
+Default
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+1.25
+ 20
+21.757324
  30
 0.0
   0
 SEQEND
   5
-7D
-330
-78
-100
-AcDbEntity
-  8
-Default
-  0
-LINE
-  5
-7E
-330
-1F
-100
-AcDbEntity
-  8
-Default
-100
-AcDbLine
- 10
-1.25
- 20
-0.0
- 30
-0.0
- 11
-2.25
- 21
-0.0
- 31
-0.0
-  0
-LINE
-  5
-7F
-330
-1F
-100
-AcDbEntity
-  8
-Default
-100
-AcDbLine
- 10
-1.25
- 20
-22.0
- 30
-0.0
- 11
-2.25
- 21
-22.0
- 31
-0.0
-  0
-LINE
-  5
 80
 330
-1F
+7B
 100
 AcDbEntity
   8
 Default
-100
-AcDbLine
- 10
-1.25
- 20
-11.5
- 30
-0.0
- 11
-2.25
- 21
-11.5
- 31
-0.0
   0
 POLYLINE
   5
@@ -2105,7 +2105,7 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.25
+0.0
  20
 0.0
  30
@@ -2125,7 +2125,7 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-2.25
+1.0
  20
 0.0
  30
@@ -2145,9 +2145,9 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-2.25
+1.0
  20
-22.0
+21.757324
  30
 0.0
   0
@@ -2165,9 +2165,9 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.25
+0.0
  20
-22.0
+21.757324
  30
 0.0
   0
@@ -2217,7 +2217,7 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.25
+0.0
  20
 0.0
  30
@@ -2237,7 +2237,7 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.75
+0.5
  20
 0.0
  30
@@ -2257,9 +2257,9 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.75
+0.5
  20
-22.0
+21.757324
  30
 0.0
   0
@@ -2277,9 +2277,9 @@ AcDbVertex
 100
 AcDb2dVertex
  10
-1.25
+0.0
  20
-22.0
+21.757324
  30
 0.0
   0
@@ -3309,7 +3309,7 @@ Model
  15
 2.25
  25
-22.0
+21.757324
  35
 0.0
 146
